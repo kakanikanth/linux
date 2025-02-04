@@ -1,0 +1,69 @@
+#To check ip address
+ip addr show
+
+#To list the directory and file
+
+ls
+
+#To check manual/help page
+
+man <name of command>
+man ls
+man ip
+
+# To check the name of the host
+hostname
+
+# to copy a file 
+cp <file name> <new file name>
+
+#chown command
+https://linuxize.com/post/linux-chown-command/
+
+#Install a package
+sudo apt-get update
+sudo apt-cache search maven
+sudo apt-get install maven
+
+#Try same command on redhat using yum
+
+#move a file
+
+mkdir newdir
+touch a
+mv a newdir/b
+ls newdir/
+
+# add user command
+sudo su
+useradd -m learner
+passwd learner
+useradd -m learner1
+passwd learner1
+su learner
+touch a
+ls -l
+chown learner1 a
+
+#create file
+su learner
+touch abc
+chmod 777 abc
+
+#find a file
+find . -name test.sh
+
+find <directory location> -name <file you want search>
+
+#grep
+
+create a file using vi editor: vi firstfile
+enable using i option
+put some entry: amit arun jay
+save it press esc key then :wq and enter
+ 
+grep amit firstfile
+
+
+
+
