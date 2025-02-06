@@ -1,0 +1,5 @@
+ps aux | cut -d ' ' -f 2,11
+#-d ' ': Specifies that the delimiter is a space (fields are space-separated).
+#-f 2,11: Extracts the second column (PID) and the eleventh column (COMMAND). 
+ps aux | tr -s ' ' | cut -d ' ' -f 2,11
+# output may contain multiple spaces between columns, which can cause cut to treat them as separate fields. To avoid this, we can first pipe the output of ps aux to tr -s ' ' to replace multiple spaces with a single space.
