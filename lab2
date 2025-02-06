@@ -1,0 +1,6 @@
+#using vi editor open file
+#!/bin/bash
+var="amit"
+echo Hi $var
+chmod +x <filename>.sh
+bash <filename>.sh
