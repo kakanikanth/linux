@@ -1,0 +1,7 @@
+#Create file using vi editor , copy code from line 3
+vi firstfile.sh
+#!/bin/bash
+echo "Hi"
+#Save the file
+chmod +x firstfile.sh
+bash firstfile.sh
