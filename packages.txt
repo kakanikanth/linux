@@ -1,0 +1,6 @@
+maven
+openjdk-17-jdk
+# Additional packages can be added below
+# package-name
+
+root@amitserver:/h
