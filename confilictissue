@@ -1,0 +1,16 @@
+go to you repo and do the full clone
+
+git clone git@github.com:owsolut/linuxtraining.git
+
+cd linuxtraining
+
+touch abc
+git add abc
+git commit -m "Add"
+
+--UI interface of git hub
+Create a new file
+
+--Come to command line
+
+git push origin main
